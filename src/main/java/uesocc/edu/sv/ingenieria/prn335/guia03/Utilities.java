@@ -54,7 +54,6 @@ public class Utilities implements Serializable{
                     } else {
                         cadena += String.valueOf(texto.charAt(rec)).toLowerCase();
                     }
-
                 }
             } else {
                 cadena = "";
@@ -82,7 +81,7 @@ public class Utilities implements Serializable{
                 }
                 if (frase.equalsIgnoreCase(busqueda)) {
                     cantidad++;
-                }
+               }
             }
 
         } else {
@@ -92,7 +91,6 @@ public class Utilities implements Serializable{
             cantidad=0;
         }
         return cantidad;
-
     }
   
 }
